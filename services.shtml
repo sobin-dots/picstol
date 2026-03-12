@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+  <meta name="description" content="PICSTOL Services - VFX, 3D Modeling, Motion Graphics, Compositing, and more.">
+  <title>Services - PICSTOL</title>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="css/style.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    body {
+      font-family: 'Outfit', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-black text-white antialiased page-transition">
+  
+  <!--#include virtual="includes/header.html" -->
+  
+  <!-- Hero Section -->
+  <section class="pt-32 pb-16 sm:pt-40 sm:pb-20">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 animate-fade-in-up">
+          Our <span class="gradient-text-primary">Services</span>
+        </h1>
+        <p class="text-lg sm:text-xl text-gray-300 animate-fade-in-up delay-100">
+          Cutting-edge Visual Effects, 3D & Motion Graphics Solutions
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Overview Section -->
+  <section class="py-16 sm:py-20">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-4xl mx-auto">
+        <div class="bg-gradient-to-br from-[#4031D4]/10 to-purple-900/10 rounded-3xl p-8 sm:p-12 border border-[#4031D4]/20 scroll-animate">
+          <h2 class="text-2xl sm:text-3xl font-bold mb-4">Full-Spectrum VFX Partner</h2>
+          <p class="text-gray-300 leading-relaxed mb-6">
+            We are a specialized VFX studio dedicated to creating seamless, photorealistic visual effects that enhance storytelling across Films, commercials, digital media, and gaming projects.
+          </p>
+          <p class="text-gray-300 leading-relaxed">
+            We deliver end-to-end visual effects with expertise spanning high-end compositing, advanced roto and paint, match move, and dynamic 3D modeling and motion graphics, serving as a trusted partner for projects of any scale and complexity.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Visual Effects Section -->
+  <section class="py-16 sm:py-20 bg-gradient-to-b from-black to-[#0a0a0a]">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-12 scroll-animate">
+          <h2 class="text-3xl sm:text-4xl font-bold mb-4">Visual Effects (VFX)</h2>
+          <p class="text-gray-400 max-w-2xl mx-auto">
+            Professional-grade visual effects that seamlessly blend with live-action footage
+          </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+          <!-- Seamless Compositing -->
+          <div class="service-card rounded-2xl p-6 sm:p-8 scroll-animate delay-100">
+            <div class="w-full aspect-video rounded-xl img-placeholder mb-6 bg-cover bg-center" style="background-image: url('assets/images/vfx_composite.png');"></div>
+            <h3 class="text-xl font-bold mb-3">Seamless Compositing</h3>
+            <p class="text-gray-400 leading-relaxed">
+              Flawless integration of CGI elements with live-action footage, creating photorealistic final outputs that captivate audiences.
+            </p>
+          </div>
+          
+          <!-- Paint / Prep -->
+          <div class="service-card rounded-2xl p-6 sm:p-8 scroll-animate delay-200">
+            <div class="w-full aspect-video rounded-xl img-placeholder mb-6 bg-cover bg-center" style="background-image: url('assets/images/vfx_roto.png');"></div>
+            <h3 class="text-xl font-bold mb-3">Paint / Prep</h3>
+            <p class="text-gray-400 leading-relaxed">
+              Clean removal of technical apparatus, wires, rigs, and unwanted elements from live-action footage with meticulous attention to detail.
+            </p>
+          </div>
+          
+          <!-- Roto / Keying -->
+          <div class="service-card rounded-2xl p-6 sm:p-8 scroll-animate delay-300">
+            <div class="w-full aspect-video rounded-xl img-placeholder mb-6 bg-cover bg-center" style="background-image: url('assets/images/vfx_roto.png');"></div>
+            <h3 class="text-xl font-bold mb-3">Roto / Keying</h3>
+            <p class="text-gray-400 leading-relaxed">
+              Flawless extraction of mattes from live-action footage with frame-by-frame precision rotoscoping for complex scenes.
+            </p>
+          </div>
+          
+          <!-- Matchmove -->
+          <div class="service-card rounded-2xl p-6 sm:p-8 scroll-animate delay-400">
+            <div class="w-full aspect-video rounded-xl img-placeholder mb-6 bg-cover bg-center" style="background-image: url('assets/images/vfx_matchmove.png');"></div>
+            <h3 class="text-xl font-bold mb-3">Matchmove</h3>
+            <p class="text-gray-400 leading-relaxed">
+              Precise tracking of cameras, objects, and body movements in live-action footage for accurate CGI integration and virtual set extensions.
+            </p>
+          </div>
+          
+          <!-- Matte Painting -->
+          <div class="service-card rounded-2xl p-6 sm:p-8 md:col-span-2 scroll-animate delay-500">
+            <div class="w-full aspect-[21/9] rounded-xl img-placeholder mb-6 bg-cover bg-center" style="background-image: url('assets/images/vfx_matte_env.png');"></div>
+            <h3 class="text-xl font-bold mb-3">Matte Painting & Environment Extension</h3>
+            <p class="text-gray-400 leading-relaxed">
+              Photorealistic set extensions and environment creation that expand the scope of your production beyond physical limitations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- 3D Modeling Section -->
+  <section class="py-16 sm:py-20">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-12 scroll-animate">
+          <h2 class="text-3xl sm:text-4xl font-bold mb-4">3D Modeling & Asset Creation</h2>
+          <p class="text-gray-400 max-w-2xl mx-auto">
+            Production-ready 3D assets with photorealistic details and optimized workflows
+          </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+          <!-- Character Modeling -->
+          <div class="service-card rounded-2xl p-6 sm:p-8 scroll-animate delay-100">
+            <div class="w-full aspect-video rounded-xl img-placeholder mb-6 bg-cover bg-center" style="background-image: url('assets/images/3d_character.png');"></div>
+            <h3 class="text-xl font-bold mb-3">Character Modeling</h3>
+            <p class="text-gray-400 leading-relaxed">
+              Detailed, production-ready character assets with anatomically accurate modeling and optimized topology for animation.
+            </p>
+          </div>
+          
+          <!-- Environment Design -->
+          <div class="service-card rounded-2xl p-6 sm:p-8 scroll-animate delay-200">
+            <div class="w-full aspect-video rounded-xl img-placeholder mb-6 bg-cover bg-center" style="background-image: url('assets/images/3d_environment.png');"></div>
+            <h3 class="text-xl font-bold mb-3">Environment Design</h3>
+            <p class="text-gray-400 leading-relaxed">
+              Comprehensive world-building and set creation with attention to architectural detail and environmental storytelling.
+            </p>
+          </div>
+          
+          <!-- Hard-Surface Modeling -->
+          <div class="service-card rounded-2xl p-6 sm:p-8 scroll-animate delay-300">
+            <div class="w-full aspect-video rounded-xl img-placeholder mb-6 bg-cover bg-center" style="background-image: url('assets/images/3d_hard_surface.png');"></div>
+            <h3 class="text-xl font-bold mb-3">Hard-Surface Modeling</h3>
+            <p class="text-gray-400 leading-relaxed">
+              Mechanical, architectural, and industrial asset creation with precision modeling and clean geometry for realistic renders.
+            </p>
+          </div>
+          
+          <!-- Texture Development -->
+          <div class="service-card rounded-2xl p-6 sm:p-8 scroll-animate delay-400">
+            <div class="w-full aspect-video rounded-xl img-placeholder mb-6 bg-cover bg-center" style="background-image: url('assets/images/3d_texture.png');"></div>
+            <h3 class="text-xl font-bold mb-3">Texture Development</h3>
+            <p class="text-gray-400 leading-relaxed">
+              Photorealistic material creation and optimization using industry-standard PBR workflows for stunning visual quality.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Motion Graphics Section -->
+  <section class="py-16 sm:py-20 bg-gradient-to-b from-black to-[#0a0a0a]">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-12 scroll-animate">
+          <h2 class="text-3xl sm:text-4xl font-bold mb-4">Motion Graphics & Animation</h2>
+          <p class="text-gray-400 max-w-2xl mx-auto">
+            Captivating animations that bring brands and stories to life
+          </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+          <!-- 2D Motion Graphics -->
+          <div class="service-card rounded-2xl p-6 sm:p-8 scroll-animate delay-100">
+            <div class="w-full aspect-video rounded-xl img-placeholder mb-6 bg-cover bg-center" style="background-image: url('assets/images/mg_abstract.png');"></div>
+            <h3 class="text-xl font-bold mb-3">2D Motion Graphics</h3>
+            <p class="text-gray-400 leading-relaxed">
+              Engaging animations combining text, graphics, and visual effects to create memorable brand experiences and explainer content.
+            </p>
+          </div>
+          
+          <!-- 3D Motion Graphics -->
+          <div class="service-card rounded-2xl p-6 sm:p-8 scroll-animate delay-200">
+            <div class="w-full aspect-video rounded-xl img-placeholder mb-6 bg-cover bg-center" style="background-image: url('assets/images/mg_abstract.png');"></div>
+            <h3 class="text-xl font-bold mb-3">3D Motion Graphics</h3>
+            <p class="text-gray-400 leading-relaxed">
+              Dynamic animated sequences for branding and commercials with cinematic quality and professional polish.
+            </p>
+          </div>
+          
+          <!-- Promotional Content -->
+          <div class="service-card rounded-2xl p-6 sm:p-8 scroll-animate delay-300">
+            <div class="w-full aspect-video rounded-xl img-placeholder mb-6 bg-cover bg-center" style="background-image: url('assets/images/mg_promo.png');"></div>
+            <h3 class="text-xl font-bold mb-3">Promotional Content</h3>
+            <p class="text-gray-400 leading-relaxed">
+              Compelling visual narratives for brands, apps, and products that drive engagement and conversions.
+            </p>
+          </div>
+          
+          <!-- Digital Campaigns -->
+          <div class="service-card rounded-2xl p-6 sm:p-8 scroll-animate delay-400">
+            <div class="w-full aspect-video rounded-xl img-placeholder mb-6 bg-cover bg-center" style="background-image: url('assets/images/mg_digital.png');"></div>
+            <h3 class="text-xl font-bold mb-3">Digital Campaigns</h3>
+            <p class="text-gray-400 leading-relaxed">
+              Simplified visualization of complex ideas into captivating stories for social media and digital marketing campaigns.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- CTA Section -->
+  <section class="py-20 sm:py-32">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-4xl mx-auto text-center bg-gradient-to-br from-[#4031D4]/20 to-purple-900/20 rounded-3xl p-8 sm:p-12 border border-[#4031D4]/30 scroll-animate">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-4">
+          Let's Create Something <span class="gradient-text">Extraordinary</span>
+        </h2>
+        <p class="text-lg text-gray-300 mb-8">
+          Ready to elevate your project with world-class VFX?
+        </p>
+        <a href="inquiry.shtml" class="inline-block px-8 py-4 bg-[#4031D4] hover:bg-[#5041E4] text-white font-semibold rounded-full transition-all hover:shadow-lg hover:shadow-[#4031D4]/30 hover:scale-105">
+          Get in Touch
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <!--#include virtual="includes/footer.html" -->
+  
+  <script src="js/main.js"></script>
+  
+</body>
+</html>

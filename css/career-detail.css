@@ -1,0 +1,273 @@
+/* Career Detail Page Specific Styles */
+
+/* Job Section Spacing */
+.job-section {
+  opacity: 0;
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.job-section:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.job-section:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.job-section:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.job-section:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.job-section:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+/* Apply Card Animation */
+.apply-card {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Modal Animations */
+#application-modal.show {
+  animation: fadeIn 0.3s ease-out;
+}
+
+#application-modal.show > div {
+  animation: scaleIn 0.3s ease-out;
+}
+
+/* Smooth transitions for modal */
+#application-modal {
+  transition: opacity 0.3s ease-out;
+}
+
+#application-modal.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#application-modal:not(.hidden) {
+  opacity: 1;
+  display: flex !important;
+}
+
+/* Form Input Styles */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+select,
+textarea {
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #4031D4;
+  box-shadow: 0 0 0 3px rgba(64, 49, 212, 0.1);
+}
+
+/* File Input Styling */
+input[type="file"]::file-selector-button {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  border: none;
+  background: #4031D4;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background: #5041E4;
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #4031D4;
+  border-color: #4031D4;
+}
+
+/* Share Buttons Hover Effect */
+.share-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.share-button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(64, 49, 212, 0.1), rgba(124, 58, 237, 0.1));
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.share-button:hover::before {
+  opacity: 1;
+}
+
+/* Copy Notification Animation */
+#copy-notification {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Related Jobs Card Hover */
+.related-job-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.related-job-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(64, 49, 212, 0.15);
+}
+
+/* Breadcrumb Hover */
+nav a {
+  position: relative;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: white;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* Responsive Sidebar */
+@media (min-width: 1024px) {
+  .sticky {
+    position: sticky;
+    top: 6rem;
+  }
+}
+
+/* Skills Tags Animation */
+.skills-tag {
+  transition: all 0.3s ease;
+}
+
+.skills-tag:hover {
+  transform: scale(1.05);
+  background: rgba(64, 49, 212, 0.3);
+}
+
+/* Benefits Grid Animation */
+.benefits-grid > div {
+  opacity: 0;
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+.benefits-grid > div:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.benefits-grid > div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.benefits-grid > div:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.benefits-grid > div:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.benefits-grid > div:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+.benefits-grid > div:nth-child(6) {
+  animation-delay: 0.6s;
+}
+
+/* Modal Backdrop Blur */
+#application-modal {
+  backdrop-filter: blur(8px);
+}
+
+/* Form Success Animation */
+#form-success-message {
+  animation: fadeInUp 0.5s ease-out;
+}
+
+/* Smooth Scroll Behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mobile Modal Adjustments */
+@media (max-width: 640px) {
+  #application-modal > div {
+    max-height: 95vh;
+    border-radius: 1.5rem;
+  }
+}
+
+/* Loading State for Form Button */
+button[type="submit"]:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button[type="submit"]:disabled::after {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+  border: 2px solid white;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Print Styles */
+@media print {
+  header,
+  footer,
+  .apply-card,
+  #application-modal,
+  .related-jobs-section {
+    display: none;
+  }
+  
+  body {
+    background: white;
+    color: black;
+  }
+  
+  .job-section {
+    page-break-inside: avoid;
+  }
+}
