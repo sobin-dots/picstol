@@ -38,7 +38,7 @@ const Header = () => {
                 </>
               )}
             </NavLink>
-            <NavLink 
+            <NavLink  
               to="/portfolio" 
               onClick={closeMenu}
               className={({ isActive }) => `text-sm font-medium transition-colors relative py-1 ${isActive ? 'text-white' : 'text-gray-300 hover:text-white'}`}
@@ -79,7 +79,7 @@ const Header = () => {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
+    
         <div className={`${isMobileMenuOpen ? 'flex' : 'hidden'} md:hidden pb-6 pt-2 flex-col gap-4 animate-fade-in`}>
           <NavLink to="/" onClick={closeMenu} className={({ isActive }) => `text-sm font-medium transition-colors ${isActive ? 'text-white' : 'text-gray-300 hover:text-white'}`}>
             Home
