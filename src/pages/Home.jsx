@@ -29,19 +29,19 @@ const Home = () => {
     {
       title: 'VFX',
       filter: 'vfx',
-      image: '/assets/images/portfolio/vfx/Jailer.jpg',
+      image: '/assets/home/VFX.jpg',
       desc: 'Precision rotoscoping, paint/prep, and high-end visual integration for major motion pictures.'
     },
     {
       title: '3D',
       filter: '3d',
-      image: '/assets/images/3d_arch.png',
+      image: '/assets/home/3d.jpg',
       desc: 'Expert 3D modeling, texturing, and photorealistic architectural visualizations.'
     },
     {
       title: 'MG',
       filter: 'mg',
-      image: '/assets/images/mg_abstract.png',
+      image: '/assets/home/MG.jpg',
       desc: 'Dynamic motion graphics, digital title design, and cinematic brand storytelling.'
     }
   ];
@@ -100,7 +100,7 @@ const Home = () => {
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 transform transition-all duration-700 group-hover:scale-110"
+                    className="w-full h-full object-cover  transform transition-all duration-700 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity"></div>
 
@@ -173,14 +173,16 @@ const Home = () => {
           </div>
 
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 lg:gap-16 opacity-50 grayscale hover:grayscale-0 transition-all duration-700 max-w-7xl mx-auto scroll-animate">
-            <img src="/assets/images/partners/CASAGRAND-logo.webp" alt="Casagrand" className="h-6 md:h-8 w-auto object-contain brightness-0 invert" />
-            <img src="/assets/images/partners/arunexe.webp" alt="Arun Excello" className="h-10 md:h-14 w-auto object-contain brightness-0 invert" />
-            <img src="/assets/images/partners/vff-logo.webp" alt="VFF" className="h-6 md:h-8 w-auto object-contain brightness-0 invert" />
-            <img src="/assets/images/partners/vijay-antony-film-corporation.webp" alt="Vijay Antony" className="h-10 md:h-14 w-auto object-contain " />
-            <img src="/assets/images/partners/SPACEMONK_v2.webp" alt="Space Monk" className="h-10 md:h-14 w-auto object-contain brightness-0 invert" />
-            <img src="/assets/images/partners/grund.webp" alt="Grundfos" className="h-6 md:h-8 w-auto object-contain brightness-0 invert" />
-            <img src="/assets/images/partners/jfw.webp" alt="JFW" className="h-8 md:h-12 w-auto object-contain brightness-0 invert" />
-            <img src="/assets/images/partners/360-logo.webp" alt="360" className="h-8 md:h-10 w-auto object-contain " />
+            <img src="/assets/images/partners/casagrand.png"        alt="Casagrand"        className="h-10 md:h-12 w-28 md:w-32 object-contain" />
+            <img src="/assets/images/partners/VFF Vishal.png"       alt="VFF Vishal"       className="h-10 md:h-12 w-28 md:w-32 object-contain" />
+            <img src="/assets/images/partners/VIJAY ANTONY.png"     alt="Vijay Antony"     className="h-10 md:h-12 w-28 md:w-32 object-contain" />
+            <img src="/assets/images/partners/spacemonk.png"        alt="Space Monk"       className="h-10 md:h-12 w-28 md:w-32 object-contain" />
+            <img src="/assets/images/partners/grundfos.png"         alt="Grundfos"         className="h-10 md:h-12 w-28 md:w-32 object-contain" />
+            <img src="/assets/images/partners/JFW.png"              alt="JFW"              className="h-10 md:h-12 w-28 md:w-32 object-contain" />
+            <img src="/assets/images/partners/360 ENTERTAINMENT.png" alt="360 Entertainment" className="h-10 md:h-12 w-28 md:w-32 object-contain" />
+            <img src="/assets/images/partners/MDS.png"              alt="MDS"              className="h-10 md:h-12 w-28 md:w-32 object-contain" />
+            <img src="/assets/images/partners/MRP.png"              alt="MRP"              className="h-10 md:h-12 w-28 md:w-32 object-contain" />
+            <img src="/assets/images/partners/3Dots.png"            alt="3Dots"            className="h-10 md:h-12 w-28 md:w-32 object-contain" />
           </div>
         </div>
       </section>
@@ -192,10 +194,10 @@ const Home = () => {
           <div className="max-w-5xl mx-auto flex flex-col items-center text-center gap-10 scroll-animate">
 
             <div className="w-full">
-              <h2 className="text-5xl md:text-7xl lg:text-8xl font-bold italic leading-tight tracking-tight" style={{ color: '#3730a3' }}>
-                Let's make <span className="font-light">something</span>
+              <h2 className="text-5xl md:text-7xl lg:text-8xl font-bold  leading-tight tracking-tight" style={{ color: '#3730a3' }}>
+                Let's make something
                 <br />
-                <span className="font-black">great together</span>
+                great together
               </h2>
               <p className="text-white/60 mt-6 max-w-md mx-auto text-sm md:text-base">
                 we are dedicated to helping businesses achieve those goals through innovative digital solutions.

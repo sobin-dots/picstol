@@ -215,14 +215,14 @@ const Inquiry = () => {
                     <h3 className="text-[10px] font-black uppercase tracking-[0.3em] text-[#4031D4] mb-8">Direct Contact</h3>
                     <div className="space-y-10">
                       <div className="group">
-                        <p className="text-[10px] font-bold text-gray-600 uppercase tracking-widest mb-2">Email Us</p>
-                        <a href="mailto:hello@picstol.com" className="text-lg sm:text-md font-black uppercase tracking-tighter text-white hover:text-[#4031D4] transition-colors block leading-none">
+                        <p className="text-[10px] font-black uppercase tracking-[0.3em] text-gray-500 mb-1">Email Us</p>
+                        <a href="mailto:hello@picstol.com" className="text-sm font-medium text-white hover:text-[#4031D4] transition-colors block">
                           hello@picstol.com
                         </a>
                       </div>
                       <div className="group">
-                        <p className="text-[10px] font-bold text-gray-600 uppercase tracking-widest mb-2">Call Us</p>
-                        <a href="tel:+919952627427" className="text-lg sm:text-md  font-black uppercase tracking-tighter text-white hover:text-[#4031D4] transition-colors block leading-none">
+                        <p className="text-[10px] font-black uppercase tracking-[0.3em] text-gray-500 mb-1">Call Us</p>
+                        <a href="tel:+919952627427" className="text-sm font-medium text-white hover:text-[#4031D4] transition-colors block">
                           +91 995 262 7427
                         </a>
                       </div>
