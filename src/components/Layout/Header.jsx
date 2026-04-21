@@ -21,7 +21,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <Link to="/" onClick={closeMenu} className="flex items-center gap-2 group">
-            <img src="/assets/images/logo-white.svg" alt="PICSTOL" className="h-20 sm:h-20 transition-transform group-hover:scale-105" />
+            <img src="/assets/images/logo.png" alt="PICSTOL" className="h-20 sm:h-20 transition-transform group-hover:scale-105" />
           </Link>
 
           {/* Desktop Navigation */}
