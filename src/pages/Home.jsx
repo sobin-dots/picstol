@@ -49,12 +49,12 @@ const Home = () => {
   return (
     <div className="bg-black text-white">
       {/* Hero Section */}
-      <section className="pt-32 flex flex-col items-center">
-        <div className="max-w-7xl mx-auto px-4 text-center mb-16">
-          <h1 className="text-4xl sm:text-4xl md:text-6xl font-black mb-8 tracking-tight animate-fade-in-up leading-tight">
-            Transforming Every Vision Into Magical Reality
+      <section className="pt-24 md:pt-32 flex flex-col items-center overflow-hidden">
+        <div className="max-w-7xl mx-auto px-6 text-center mb-12 md:mb-16">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-black mb-6 md:mb-8 tracking-tight animate-fade-in-up leading-tight">
+            Transforming Every Vision <br className="sm:hidden" /> Into Magical Reality
           </h1>
-          <p className="text-gray-400 text-md md:text-lg  mx-auto animate-fade-in-up delay-200">
+          <p className="text-gray-400 text-sm md:text-lg max-w-2xl mx-auto animate-fade-in-up delay-200">
             Cutting-edge Visual Effects, 3D Modeling & Motion Graphics solutions that enhance storytelling across films, commercials, and digital media.
           </p>
         </div>
@@ -85,7 +85,7 @@ const Home = () => {
             <div className="w-24 h-1 bg-accent mx-auto"></div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-7xl mx-auto">
             {services.map((service, i) => (
               <Link
                 key={i}
@@ -93,10 +93,10 @@ const Home = () => {
                 className="group scroll-animate"
                 style={{ animationDelay: `${i * 100}ms` }}
               >
-                <div className="text-center mb-6">
-                  <h3 className="text-2xl font-black text-white uppercase tracking-tighter group-hover:text-accent transition-colors">{service.title}</h3>
+                <div className="text-center mb-4 md:mb-6">
+                  <h3 className="text-xl md:text-2xl font-black text-white uppercase tracking-tighter group-hover:text-accent transition-colors">{service.title}</h3>
                 </div>
-                <div className="aspect-[4/5] rounded-[2rem] overflow-hidden bg-white/5 relative border border-white/5 group-hover:border-accent/30 transition-all duration-500 shadow-2xl group-hover:shadow-accent/10">
+                <div className="aspect-[4/5] rounded-[1.5rem] md:rounded-[2rem] overflow-hidden bg-white/5 relative border border-white/5 group-hover:border-accent/30 transition-all duration-500 shadow-2xl group-hover:shadow-accent/10">
                   <img
                     src={service.image}
                     alt={service.title}
@@ -115,24 +115,23 @@ const Home = () => {
       </section>
 
       {/* TPN Certification Section */}
-      <section className="py-20 bg-zinc-900">
-        <div className="container mx-auto px-8 md:px-16">
-          <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-20 scroll-animate">
-
+      <section className="py-16 md:py-24 bg-zinc-900 overflow-hidden">
+        <div className="container mx-auto px-6">
+          <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center gap-8 md:gap-20 scroll-animate">
             <div className="flex-shrink-0">
               <img
                 src="/assets/images/tpn-logo.png"
                 alt="Trusted Partner Network"
-                className="h-24 md:h-32 w-auto object-contain"
+                className="h-20 md:h-32 w-auto object-contain"
               />
             </div>
 
-            <div className="text-center ml-56 md:text-left">
-              <h2 className="text-3xl md:text-5xl font-normal text-white mb-4 leading-tight">
+            <div className="text-center md:text-left">
+              <h2 className="text-2xl md:text-5xl font-normal text-white mb-4 leading-tight">
                 <span className="font-black">Certified</span> <span className="italic font-light opacity-80">Trusted</span> <br className="hidden lg:block" />
                 <span className="italic opacity-80">Partner Network</span> <span className="font-black">member.</span>
               </h2>
-              <p className="text-gray-400 text-base md:text-lg font-medium">
+              <p className="text-gray-400 text-sm md:text-lg font-medium">
                 Ensuring top-tier content security and industry compliance.
               </p>
             </div>
@@ -172,40 +171,40 @@ const Home = () => {
             </h2>
           </div>
 
-          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 lg:gap-16 opacity-50 grayscale hover:grayscale-0 transition-all duration-700 max-w-7xl mx-auto scroll-animate">
-            <img src="/assets/images/partners/casagrand.png"        alt="Casagrand"        className="h-10 md:h-12 w-28 md:w-32 object-contain" />
-            <img src="/assets/images/partners/VFF Vishal.png"       alt="VFF Vishal"       className="h-10 md:h-12 w-28 md:w-32 object-contain" />
-            <img src="/assets/images/partners/VIJAY ANTONY.png"     alt="Vijay Antony"     className="h-10 md:h-12 w-28 md:w-32 object-contain" />
-            <img src="/assets/images/partners/spacemonk.png"        alt="Space Monk"       className="h-10 md:h-12 w-28 md:w-32 object-contain" />
-            <img src="/assets/images/partners/grundfos.png"         alt="Grundfos"         className="h-10 md:h-12 w-28 md:w-32 object-contain" />
-            <img src="/assets/images/partners/JFW.png"              alt="JFW"              className="h-10 md:h-12 w-28 md:w-32 object-contain" />
-            <img src="/assets/images/partners/360 ENTERTAINMENT.png" alt="360 Entertainment" className="h-10 md:h-12 w-28 md:w-32 object-contain" />
-            <img src="/assets/images/partners/MDS.png"              alt="MDS"              className="h-10 md:h-12 w-28 md:w-32 object-contain" />
-            <img src="/assets/images/partners/MRP.png"              alt="MRP"              className="h-10 md:h-12 w-28 md:w-32 object-contain" />
-            <img src="/assets/images/partners/3Dots.png"            alt="3Dots"            className="h-10 md:h-12 w-28 md:w-32 object-contain" />
+          <div className="grid grid-cols-2 sm:flex sm:flex-wrap justify-center items-center gap-6 md:gap-12 lg:gap-16 opacity-50 grayscale hover:grayscale-0 transition-all duration-700 max-w-7xl mx-auto scroll-animate px-4">
+            <img src="/assets/images/partners/casagrand.png"        alt="Casagrand"        className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
+            <img src="/assets/images/partners/VFF Vishal.png"       alt="VFF Vishal"       className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
+            <img src="/assets/images/partners/VIJAY ANTONY.png"     alt="Vijay Antony"     className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
+            <img src="/assets/images/partners/spacemonk.png"        alt="Space Monk"       className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
+            <img src="/assets/images/partners/grundfos.png"         alt="Grundfos"         className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
+            <img src="/assets/images/partners/JFW.png"              alt="JFW"              className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
+            <img src="/assets/images/partners/360 ENTERTAINMENT.png" alt="360 Entertainment" className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
+            <img src="/assets/images/partners/MDS.png"              alt="MDS"              className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
+            <img src="/assets/images/partners/MRP.png"              alt="MRP"              className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
+            <img src="/assets/images/partners/3Dots.png"            alt="3Dots"            className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
           </div>
         </div>
       </section>
 
 
       {/* Final CTA Section */}
-      <section className="py-32 bg-black overflow-hidden relative">
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-5xl mx-auto flex flex-col items-center text-center gap-10 scroll-animate">
+      <section className="py-24 md:py-32 bg-black overflow-hidden relative">
+        <div className="container mx-auto px-6 relative z-10">
+          <div className="max-w-5xl mx-auto flex flex-col items-center text-center gap-8 md:gap-10 scroll-animate">
 
             <div className="w-full">
-              <h2 className="text-5xl md:text-7xl lg:text-8xl font-bold  leading-tight tracking-tight" style={{ color: '#3730a3' }}>
+              <h2 className="text-4xl md:text-7xl lg:text-8xl font-bold leading-[1.1] tracking-tight" style={{ color: '#3730a3' }}>
                 Let's make something
                 <br />
                 great together
               </h2>
               <p className="text-white/60 mt-6 max-w-md mx-auto text-sm md:text-base">
-                we are dedicated to helping businesses achieve those goals through innovative digital solutions.
+                We are dedicated to helping businesses achieve those goals through innovative digital solutions.
               </p>
             </div>
 
             <div>
-              <Link to="/inquiry" className="group inline-flex items-center gap-4 bg-white text-black px-10 py-5 font-black uppercase tracking-widest hover:bg-accent hover:text-white transition-all transform hover:scale-105">
+              <Link to="/inquiry" className="group inline-flex items-center gap-4 bg-white text-black px-8 py-4 md:px-10 md:py-5 font-black uppercase tracking-widest hover:bg-accent hover:text-white transition-all transform hover:scale-105 text-sm md:text-base">
                 Contact Us
                 <svg className="w-5 h-5 transform group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />

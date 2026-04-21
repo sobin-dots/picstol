@@ -31,7 +31,7 @@ const projects = [
   { id: 3, title: 'Jailer', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_15.png' },
   { id: 4, title: 'Maanadu', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_17.png' },
   { id: 5, title: 'chakra', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_19.png' },
-  { id: 6, title: 'champion-2', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/champion-2.jpg' },
+  // { id: 6, title: 'champion-2', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/champion-2.jpg' },
   { id: 7, title: 'champion', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_3.png' },
   { id: 8, title: 'dhurandhar', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_2.png' },
   { id: 9, title: 'dominic', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_8.png' },

@@ -239,9 +239,9 @@ const Inquiry = () => {
                         </p>
                       </div>
                       <div>
-                        <p className="text-xs font-black text-white uppercase tracking-widest mb-3 italic">Nagercoil</p>
+                        <p className="text-xs font-black text-white uppercase tracking-widest mb-3 italic">Head Office</p>
                         <p className="text-sm text-gray-500 leading-relaxed font-medium">
-                          Head Office, Tamil Nadu. Professional VFX production hub.
+                          317/4 Joe Daniel Street, Kottar-Parvathipuram Rd, Nagercoil, Tamil Nadu 629003
                         </p>
                       </div>
                     </div>

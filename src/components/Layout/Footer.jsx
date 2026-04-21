@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="lg:col-span-4">
             <div className="flex gap-4">
               <Link to="/" className="inline-block mb-6">
-                <img src="/assets/images/logo-white.svg" alt="PICSTOL" className="h-20" />
+                <img src="/assets/images/logo.png" alt="PICSTOL" className="h-20" />
               </Link>
               <Link className='text-white text-sm'>
                 <img src="/assets/images/tpn-logo.png" alt="TPN" className="h-20" />
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
 
           <div className="lg:col-span-8">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
 
               {/* Contact Info */}
               <div>
@@ -66,6 +66,14 @@ const Footer = () => {
                   <li><Link to="/careers" className="text-gray-300 hover:text-accent transition-colors text-sm">Careers</Link></li>
                   <li><Link to="/inquiry" className="text-gray-300 hover:text-accent transition-colors text-sm">Contact</Link></li>
                 </ul>
+              </div>
+
+              {/* Head Office Address */}
+              <div>
+                <h4 className="text-gray-500 uppercase tracking-widest text-xs font-bold mb-6 italic">Head Office</h4>
+                <p className="text-sm text-gray-400 leading-relaxed font-mono">
+                  317/4 Joe Daniel Street, Kottar-Parvathipuram Rd, Nagercoil, Tamil Nadu 629003
+                </p>
               </div>
 
               {/* Chennai Address */}
