@@ -78,14 +78,14 @@ const Home = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-24 px-4 bg-black">
+      <section className="py-24 px-4 bg-black ">
         <div className="container mx-auto">
           <div className="text-center mb-16 scroll-animate">
             <h2 className="text-3xl font-bold mb-4 uppercase tracking-[0.2em] text-gray-400">Services</h2>
             <div className="w-24 h-1 bg-accent mx-auto"></div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-7xl mx-auto px-18">
             {services.map((service, i) => (
               <Link
                 key={i}
@@ -178,7 +178,7 @@ const Home = () => {
             <img src="/assets/images/partners/spacemonk.png"        alt="Space Monk"       className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
             <img src="/assets/images/partners/grundfos.png"         alt="Grundfos"         className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
             <img src="/assets/images/partners/JFW.png"              alt="JFW"              className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
-            <img src="/assets/images/partners/360 ENTERTAINMENT.png" alt="360 Entertainment" className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
+            <img src="/assets/images/partners/360 ENTERTAINMENT.png" alt="360 Entertainment" className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" /> 
             <img src="/assets/images/partners/MDS.png"              alt="MDS"              className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
             <img src="/assets/images/partners/MRP.png"              alt="MRP"              className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
             <img src="/assets/images/partners/3dots.png"            alt="3Dots"            className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto brightness-0 invert opacity-100" />
@@ -192,7 +192,7 @@ const Home = () => {
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-5xl mx-auto flex flex-col items-center text-center gap-8 md:gap-10 scroll-animate">
 
-            <div className="w-full">
+            <div className="w-full font-space">
               <h2 className="text-4xl md:text-7xl lg:text-8xl font-bold leading-[1.1] tracking-tight" style={{ color: '#3730a3' }}>
                 Let's make something
                 <br />

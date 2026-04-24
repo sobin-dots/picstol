@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Top Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-20">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-5">
 
           {/* Brand Column */}
           <div className="lg:col-span-4">
@@ -18,7 +18,7 @@ const Footer = () => {
                 <img src="/assets/images/tpn-logo.png" alt="TPN" className="h-20" />
               </Link>
             </div>
-            <p className="text-gray-400 max-w-sm mb-8  text-sm leading-relaxed">
+            <p className="text-gray-400 max-w-sm mb-8  text-md ">
               Visual Effects Studio based in India. Bringing cinematic excellence to every frame with precision and passion.
             </p>
 
@@ -50,9 +50,9 @@ const Footer = () => {
                 <h4 className="text-gray-500 uppercase tracking-widest text-md font-bold mb-2">Contact Us On</h4>
                 <ul className="space-y-4">
                   <li>
-                    <a href="mailto:hello@picstol.com" className="text-gray-300 hover:text-accent transition-colors block text-md">hello@picstol.com</a>
+                    <a href="mailto:hello@picstol.com" className="text-gray-400 hover:text-accent transition-colors block text-md">hello@picstol.com</a>
                   </li>
-                  <li className="text-gray-300 text-md">
+                  <li className="text-gray-400 text-md">
                     +91 995 262 7427
                   </li>
                 </ul>
@@ -62,9 +62,9 @@ const Footer = () => {
               <div>
                 <h4 className="text-gray-500 uppercase tracking-widest text-md font-bold mb-2">Quick Links</h4>
                 <ul className="space-y-4">
-                  <li><Link to="/portfolio" className="text-gray-300 hover:text-accent transition-colors text-md">Portfolio</Link></li>
-                  <li><Link to="/careers" className="text-gray-300 hover:text-accent transition-colors text-md">Careers</Link></li>
-                  <li><Link to="/inquiry" className="text-gray-300 hover:text-accent transition-colors text-md">Contact</Link></li>
+                  <li><Link to="/portfolio" className="text-gray-400 hover:text-accent transition-colors text-md">Portfolio</Link></li>
+                  <li><Link to="/careers" className="text-gray-400 hover:text-accent transition-colors text-md">Careers</Link></li>
+                  <li><Link to="/inquiry" className="text-gray-400 hover:text-accent transition-colors text-md">Contact</Link></li>
                 </ul>
               </div>
 
@@ -89,8 +89,8 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="flex flex-col md:flex-row justify-between items-center py-8 border-t border-white/5 text-[10px] uppercase tracking-[0.2em] text-gray-600">
-          <p>© {new Date().getFullYear()} PICSTOL VISUAL EFFECTS. ALL RIGHTS RESERVED.</p>
+        <div className="flex flex-col text-md md:flex-row justify-between items-center pb-8 border-t border-white ">
+          <p >© {new Date().getFullYear()} PICSTOL VISUAL EFFECTS. ALL RIGHTS RESERVED.</p>
         </div>
       </div>
     </footer>

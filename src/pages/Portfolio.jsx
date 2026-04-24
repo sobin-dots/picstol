@@ -26,6 +26,10 @@ const projects = [
   { id: 'p7', title: 'Product Commercial & e-Commerce', subtitle: '3D advertising — hero shots, turntables & e-commerce-ready renders', category: '3d', pdfPath: '/3D/PDF/Product Commercial & e-Commerce.pdf' },
 
   // New VFX Image Projects
+  { id: 21, title: 'dhurandhar Revenge', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_1.png' },
+  { id: 8, title: 'dhurandhar', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_2.png' },
+  { id: 15, title: 'og', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_4.png' },
+  { id: 20, title: 'Sakthithirumagan', subtitle: 'VFX Breakdown', category: 'vfx', image: '/VFX/images/Artboard_6.png', linkedVideoId: '1136032317' },
   { id: 1, title: '120 bahadur', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_20.png' },
   { id: 2, title: 'Dear', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_10.png' },
   { id: 3, title: 'Jailer', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_15.png' },
@@ -33,20 +37,17 @@ const projects = [
   { id: 5, title: 'chakra', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_19.png' },
   // { id: 6, title: 'champion-2', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/champion-2.jpg' },
   { id: 7, title: 'champion', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_3.png' },
-  { id: 8, title: 'dhurandhar', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_2.png' },
   { id: 9, title: 'dominic', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_8.png' },
   { id: 10, title: 'elumalai', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_7.png' },
   { id: 11, title: 'hitler', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_11.png' },
   { id: 12, title: 'ireambuthirai', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_18.png' },
   { id: 13, title: 'Maargan', subtitle: 'VFX Breakdown', category: 'vfx', image: '/VFX/images/Artboard_5.png', linkedVideoId: '1128432925' },
   { id: 14, title: 'madras matinee', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_9.png' },
-  { id: 15, title: 'og', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_4.png' },
   { id: 16, title: 'oh manapenne', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_16.png' },
   { id: 17, title: 'pechi', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_14.png' },
   { id: 18, title: 'Pichaikkaran 2', subtitle: 'VFX Breakdown', category: 'vfx', image: '/VFX/images/Artboard_13.png', linkedVideoId: '1095006711' },
   { id: 19, title: 'romeo', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_12.png' },
-  { id: 20, title: 'Sakthithirumagan', subtitle: 'VFX Breakdown', category: 'vfx', image: '/VFX/images/Artboard_6.png', linkedVideoId: '1136032317' },
-  { id: 21, title: 'dhurandhar Revenge', subtitle: 'VFX Project', category: 'vfx', image: '/VFX/images/Artboard_1.png' },
+  
 ];
 
 const featuredVideos = {
@@ -160,9 +161,9 @@ const Portfolio = () => {
               <button
                 key={f}
                 onClick={() => setFilter(f)}
-                className={`px-8 py-3 rounded-none font-black uppercase tracking-widest transition-all skew-x-[-12deg] ${filter === f ? 'bg-[#4031D4] text-white shadow-lg shadow-[#4031D4]/30' : 'bg-white/5 hover:bg-white/10 text-gray-400 border border-white/10'}`}
+                className={`px-8 py-3 rounded-none font-black uppercase tracking-widest transition-all ${filter === f ? 'bg-[#4031D4] text-white shadow-lg shadow-[#4031D4]/30' : 'bg-white/5 hover:bg-white/10 text-gray-400 border border-white/10'}`}
               >
-                <span className="block skew-x-[12deg] font-black">{f === 'mg' ? 'Motion Graphics' : f}</span>
+                <span className="block font-black">{f === 'mg' ? 'Motion Graphics' : f}</span>
               </button>
             ))}
           </div>
