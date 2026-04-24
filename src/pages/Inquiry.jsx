@@ -67,7 +67,7 @@ const Inquiry = () => {
       <section className="pt-32 pb-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl">
-            <h1 className="text-5xl sm:text-4xl lg:text-6xl font-black uppercase tracking-tighter leading-[0.85] mb-8 text-white animate-fade-in-up">
+            <h1 className="text-5xl sm:text-4xl lg:text-6xl font-black uppercase tracking-tighter leading-[0.85] mb-8 text-white animate-fade-in-up font-space">
               Let's <br/> <span className="text-[#4031D4]">Connect.</span>
             </h1>
             <p className="text-gray-500 uppercase tracking-[0.3em] text-xs font-bold animate-fade-in-up delay-200">

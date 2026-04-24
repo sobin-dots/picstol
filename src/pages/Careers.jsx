@@ -51,13 +51,13 @@ const Careers = () => {
       <section className="pt-20 pb-16 sm:pt-32 sm:pb-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-black mb-6 animate-fade-in-up uppercase tracking-tighter">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-black mb-6 animate-fade-in-up uppercase tracking-tighter font-space">
               <span className="text-[#4031D4]">Careers</span>
             </h1>
             <p className="text-2xl sm:text-3xl font-bold mb-4 animate-fade-in-up delay-100 italic">
               A Workplace Built on Trust, Not Titles
             </p>
-            <p className="text-lg text-gray-400 animate-fade-in-up delay-200 uppercase tracking-widest font-mono">
+            <p className="text-lg text-gray-400 animate-fade-in-up delay-200 uppercase tracking-widest ">
               Bring your ideas, we'll bring the opportunity.
             </p>
           </div>

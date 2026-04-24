@@ -18,7 +18,7 @@ const Footer = () => {
                 <img src="/assets/images/tpn-logo.png" alt="TPN" className="h-20" />
               </Link>
             </div>
-            <p className="text-gray-400 max-w-sm mb-8 font-mono text-sm leading-relaxed">
+            <p className="text-gray-400 max-w-sm mb-8  text-sm leading-relaxed">
               Visual Effects Studio based in India. Bringing cinematic excellence to every frame with precision and passion.
             </p>
 
@@ -47,12 +47,12 @@ const Footer = () => {
 
               {/* Contact Info */}
               <div>
-                <h4 className="text-gray-500 uppercase tracking-widest text-xs font-bold mb-6">Contact Us On</h4>
+                <h4 className="text-gray-500 uppercase tracking-widest text-md font-bold mb-2">Contact Us On</h4>
                 <ul className="space-y-4">
                   <li>
-                    <a href="mailto:hello@picstol.com" className="text-gray-300 hover:text-accent transition-colors block text-sm">hello@picstol.com</a>
+                    <a href="mailto:hello@picstol.com" className="text-gray-300 hover:text-accent transition-colors block text-md">hello@picstol.com</a>
                   </li>
-                  <li className="text-gray-300 text-sm">
+                  <li className="text-gray-300 text-md">
                     +91 995 262 7427
                   </li>
                 </ul>
@@ -60,26 +60,26 @@ const Footer = () => {
 
               {/* Quick Links */}
               <div>
-                <h4 className="text-gray-500 uppercase tracking-widest text-xs font-bold mb-6">Quick Links</h4>
+                <h4 className="text-gray-500 uppercase tracking-widest text-md font-bold mb-2">Quick Links</h4>
                 <ul className="space-y-4">
-                  <li><Link to="/portfolio" className="text-gray-300 hover:text-accent transition-colors text-sm">Portfolio</Link></li>
-                  <li><Link to="/careers" className="text-gray-300 hover:text-accent transition-colors text-sm">Careers</Link></li>
-                  <li><Link to="/inquiry" className="text-gray-300 hover:text-accent transition-colors text-sm">Contact</Link></li>
+                  <li><Link to="/portfolio" className="text-gray-300 hover:text-accent transition-colors text-md">Portfolio</Link></li>
+                  <li><Link to="/careers" className="text-gray-300 hover:text-accent transition-colors text-md">Careers</Link></li>
+                  <li><Link to="/inquiry" className="text-gray-300 hover:text-accent transition-colors text-md">Contact</Link></li>
                 </ul>
               </div>
 
               {/* Head Office Address */}
               <div>
-                <h4 className="text-gray-500 uppercase tracking-widest text-xs font-bold mb-6 italic">Head Office</h4>
-                <p className="text-sm text-gray-400 leading-relaxed font-mono">
+                <h4 className="text-gray-500 uppercase tracking-widest text-md font-bold mb-2 ">Head Office</h4>
+                <p className="text-md text-gray-400  ">
                   317/4 Joe Daniel Street, Kottar-Parvathipuram Rd, Nagercoil, Tamil Nadu 629003
                 </p>
               </div>
 
               {/* Chennai Address */}
               <div>
-                <h4 className="text-gray-500 uppercase tracking-widest text-xs font-bold mb-6 italic">Chennai Office</h4>
-                <p className="text-sm text-gray-400 leading-relaxed font-mono">
+                <h4 className="text-gray-500 uppercase tracking-widest text-md font-bold mb-2 ">Chennai Office</h4>
+                <p className="text-md text-gray-400 ">
                   5th Floor, Tower B, TECCI PARK, OMR, Sholinganallur, Chennai - 600119
                 </p>
               </div>
