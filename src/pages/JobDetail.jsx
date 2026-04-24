@@ -129,7 +129,7 @@ const JobDetail = () => {
                <span className="px-5 py-2 bg-[#4031D4] text-white text-[10px] font-black rounded-full uppercase tracking-widest shadow-lg shadow-[#4031D4]/20">{job.type}</span>
                <span className="px-5 py-2 bg-white/5 text-gray-400 text-[10px] font-black rounded-full uppercase tracking-widest border border-white/10">{job.location}</span>
             </div>
-            <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black uppercase tracking-tighter leading-[0.9] mb-4 text-white">
+            <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black uppercase tracking-tighter leading-[0.9] mb-4 text-white font-space">
               {job.title}
             </h1>
           </header>

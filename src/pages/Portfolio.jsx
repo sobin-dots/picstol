@@ -142,7 +142,7 @@ const Portfolio = () => {
       <section className="pt-20 pb-16 sm:pt-32 sm:pb-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 animate-fade-in-up uppercase tracking-tighter">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 animate-fade-in-up uppercase tracking-tighter font-space">
               Our <span className="text-[#4031D4]">Portfolio</span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-400 animate-fade-in-up delay-100 italic">
@@ -271,7 +271,7 @@ const Portfolio = () => {
       {/* CTA Section */}
       <section className="py-32">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-7xl font-black mb-8 italic uppercase tracking-tighter">
+          <h2 className="text-4xl md:text-7xl font-black mb-8 italic uppercase tracking-tighter font-space">
             Ready to create <br /> <span className="text-[#4031D4]">Something Great?</span>
           </h2>
           <Link to="/inquiry" className="inline-block px-12 py-5 bg-white text-black hover:bg-[#4031D4] hover:text-white font-black uppercase tracking-[0.2em] transition-all transform hover:scale-105 skew-x-[-12deg]">

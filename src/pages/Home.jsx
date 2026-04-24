@@ -51,12 +51,12 @@ const Home = () => {
       {/* Hero Section */}
       <section className="pt-24 md:pt-32 flex flex-col items-center overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 text-center mb-12 md:mb-16">
-          <h1 className="text-3xl sm:text-4xl md:text-6xl font-black mb-6 md:mb-8 tracking-tight animate-fade-in-up leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-black mb-6 md:mb-8 tracking-tight animate-fade-in-up font-space">
             Transforming Every Vision <br className="sm:hidden" /> Into Magical Reality
           </h1>
-          <p className="text-gray-400 text-sm md:text-lg max-w-2xl mx-auto animate-fade-in-up delay-200">
+          {/* <p className="text-gray-400 text-sm md:text-lg max-w-2xl mx-auto animate-fade-in-up delay-200">
             Cutting-edge Visual Effects, 3D Modeling & Motion Graphics solutions that enhance storytelling across films, commercials, and digital media.
-          </p>
+          </p> */}
         </div>
 
         <div className="w-full aspect-video md:aspect-[21/9] overflow-hidden scroll-animate relative group">
@@ -126,7 +126,7 @@ const Home = () => {
               />
             </div>
 
-            <div className="text-center md:text-left">
+            <div className="text-center md:text-left font-space">
               <h2 className="text-2xl md:text-5xl font-normal text-white mb-4 leading-tight">
                 <span className="font-black">Certified</span> <span className="italic font-light opacity-80">Trusted</span> <br className="hidden lg:block" />
                 <span className="italic opacity-80">Partner Network</span> <span className="font-black">member.</span>
@@ -143,11 +143,11 @@ const Home = () => {
       {/* About Section */}
       <section className="py-24 bg-black">
         <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto text-center scroll-animate">
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-12 font-serif tracking-tight">
+          <div className="max-w-6xl mx-auto text-justify scroll-animate">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-12  px-4 md:px-12">
               We Are Picstol...
             </h2>
-            <div className="space-y-4 md:space-y-6 text-xs md:text-sm text-gray-200 font-medium leading-relaxed px-4 md:px-12">
+            <div className="space-y-4 md:space-y-6 text-lg text-gray-200 font-medium  px-4 md:px-12">
               <p>
                 We are a specialized VFX studio dedicated to creating seamless, photorealistic visual effects that enhance storytelling across films, commercials, digital media, and gaming projects.
               </p>
@@ -166,7 +166,7 @@ const Home = () => {
       <section className="py-10 bg-black">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12 scroll-animate">
-            <h2 className="text-sm md:text-base font-bold text-gray-400 tracking-tight">
+            <h2 className="text-lg md:text-base font-bold text-gray-400 tracking-tight">
               We serve brands from startups to enterprises
             </h2>
           </div>
@@ -181,7 +181,7 @@ const Home = () => {
             <img src="/assets/images/partners/360 ENTERTAINMENT.png" alt="360 Entertainment" className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
             <img src="/assets/images/partners/MDS.png"              alt="MDS"              className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
             <img src="/assets/images/partners/MRP.png"              alt="MRP"              className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
-            <img src="/assets/images/partners/3Dots.png"            alt="3Dots"            className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
+            <img src="/assets/images/partners/3dots.png"            alt="3Dots"            className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto brightness-0 invert opacity-100" />
           </div>
         </div>
       </section>

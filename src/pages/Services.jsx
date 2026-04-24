@@ -31,7 +31,7 @@ const Services = () => {
       <section className="pt-20 pb-16 sm:pt-32 sm:pb-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 animate-fade-in-up">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 animate-fade-in-up font-space">
               Our <span className="gradient-text-primary">Services</span>
             </h1>
             <p className="text-lg sm:text-xl text-gray-300 animate-fade-in-up delay-100">

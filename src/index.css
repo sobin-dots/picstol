@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+.filter-white {
+  filter: brightness(0) invert(1);
+}
+
 :root {
   --primary: #4031D4;
   --primary-hover: #5041E4;
@@ -7,13 +11,20 @@
   --accent-hover: #5041E4;
 }
 
+
+
+
+
 @theme {
   --font-outfit: "Outfit", sans-serif;
+  --font-space: "Space Grotesk", sans-serif;
   --color-primary: var(--primary);
   --color-primary-hover: var(--primary-hover);
   --color-accent: var(--accent);
   --color-accent-hover: var(--accent-hover);
 }
+
+
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
@@ -207,6 +218,6 @@ html {
 }
 
 body {
-  font-family: 'Outfit', sans-serif;
-  @apply bg-black text-white antialiased selection:bg-accent selection:text-white;
+  /* font-family: 'Outfit', sans-serif; */
+  @apply bg-black text-white antialiased selection:bg-accent selection:text-white font-light tracking-wide leading-relaxed;
 }
