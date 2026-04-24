@@ -62,9 +62,23 @@ const Header = () => {
                 </>
               )}
             </NavLink>
-            <Link to="/inquiry" onClick={closeMenu} className="px-6 py-2 bg-white text-primary hover:bg-accent-hover text-xs font-black uppercase tracking-widest rounded-sm transition-all italic">
+
+            <NavLink 
+              to="/inquiry" 
+              onClick={closeMenu}
+              className={({ isActive }) => `text-sm font-medium transition-colors relative py-1 ${isActive ? 'text-white' : 'text-gray-300 hover:text-white'}`}
+            >
+              {({ isActive }) => (
+                <>
+                  Contact Us
+                  {isActive && <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-accent"></span>}
+                </>
+              )}
+            </NavLink>
+
+            {/* <Link to="/inquiry" onClick={closeMenu} className="px-6 py-2 bg-white text-primary hover:bg-accent-hover text-xs font-black uppercase tracking-widest rounded-sm transition-all italic">
               <span className="block ">Inquiry</span>
-            </Link>
+            </Link> */}
           </div>
 
           {/* Mobile Menu Button */}
@@ -90,9 +104,12 @@ const Header = () => {
           <NavLink to="/careers" onClick={closeMenu} className={({ isActive }) => `text-sm font-medium transition-colors ${isActive ? 'text-white' : 'text-gray-300 hover:text-white'}`}>
             Careers
           </NavLink>
-          <Link to="/inquiry" onClick={closeMenu} className="px-6 py-3 bg-white hover:bg-accent-hover  text-xs font-black uppercase tracking-widest rounded-sm transition-all italic skew-x-[-12deg] text-center">
+          <NavLink to="/inquiry" onClick={closeMenu} className={({ isActive }) => `text-sm font-medium transition-colors ${isActive ? 'text-white' : 'text-gray-300 hover:text-white'}`}>
+            Contact Us
+          </NavLink>
+          {/* <Link to="/inquiry" onClick={closeMenu} className="px-6 py-3 bg-white hover:bg-accent-hover  text-xs font-black uppercase tracking-widest rounded-sm transition-all italic skew-x-[-12deg] text-center">
             <span className="block ">Inquiry</span>
-          </Link>
+          </Link> */}
         </div>
       </nav>
     </header>

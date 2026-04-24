@@ -78,14 +78,14 @@ const Home = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-24 px-4 bg-black">
+      <section className="py-24 px-4 bg-black ">
         <div className="container mx-auto">
           <div className="text-center mb-16 scroll-animate">
             <h2 className="text-3xl font-bold mb-4 uppercase tracking-[0.2em] text-gray-400">Services</h2>
             <div className="w-24 h-1 bg-accent mx-auto"></div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-7xl mx-auto px-18">
             {services.map((service, i) => (
               <Link
                 key={i}
