@@ -178,7 +178,7 @@ const Home = () => {
             <img src="/assets/images/partners/spacemonk.png"        alt="Space Monk"       className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
             <img src="/assets/images/partners/grundfos.png"         alt="Grundfos"         className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
             <img src="/assets/images/partners/JFW.png"              alt="JFW"              className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
-            <img src="/assets/images/partners/360 ENTERTAINMENT.png" alt="360 Entertainment" className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
+            <img src="/assets/images/partners/360 ENTERTAINMENT.png" alt="360 Entertainment" className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" /> 
             <img src="/assets/images/partners/MDS.png"              alt="MDS"              className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
             <img src="/assets/images/partners/MRP.png"              alt="MRP"              className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto" />
             <img src="/assets/images/partners/3dots.png"            alt="3Dots"            className="h-8 md:h-12 w-full md:w-32 object-contain mx-auto brightness-0 invert opacity-100" />
@@ -192,7 +192,7 @@ const Home = () => {
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-5xl mx-auto flex flex-col items-center text-center gap-8 md:gap-10 scroll-animate">
 
-            <div className="w-full">
+            <div className="w-full font-space">
               <h2 className="text-4xl md:text-7xl lg:text-8xl font-bold leading-[1.1] tracking-tight" style={{ color: '#3730a3' }}>
                 Let's make something
                 <br />
